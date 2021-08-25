@@ -3,18 +3,37 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1890625" />
+        <entry key="app/src/main/res/drawable/book_icon.xml" value="0.34322916666666664" />
+        <entry key="app/src/main/res/drawable/date_icon.xml" value="0.34322916666666664" />
+        <entry key="app/src/main/res/drawable/description.xml" value="0.34322916666666664" />
+        <entry key="app/src/main/res/drawable/teacher_face.xml" value="0.34322916666666664" />
         <entry key="app/src/main/res/drawable/time_table_image.xml" value="0.34322916666666664" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2898550724637681" />
+        <entry key="app/src/main/res/layout/exam_adapter_layout.xml" value="0.3183876811594203" />
+        <entry key="app/src/main/res/layout/exam_add_dialog.xml" value="0.3183876811594203" />
+        <entry key="app/src/main/res/layout/home_work_adapter_layout.xml" value="0.30117753623188404" />
+        <entry key="app/src/main/res/layout/home_work_taking_dialog.xml" value="0.30117753623188404" />
         <entry key="app/src/main/res/layout/main_activity.xml" value="0.3229166666666667" />
         <entry key="app/src/main/res/layout/main_fragment.xml" value="0.3229166666666667" />
         <entry key="app/src/main/res/layout/monday_layout.xml" value="0.3229166666666667" />
         <entry key="app/src/main/res/layout/navigation_header.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/layout/note_add_fragment.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/layout/note_grid_layout.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/layout/note_main_fragment.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/layout/teacher_layout_adapter.xml" value="0.3070652173913043" />
+        <entry key="app/src/main/res/layout/teacher_taking_dialog.xml" value="0.3070652173913043" />
         <entry key="app/src/main/res/layout/thursday_layout.xml" value="0.3229166666666667" />
         <entry key="app/src/main/res/layout/time_table_show_fragment.xml" value="0.3229166666666667" />
         <entry key="app/src/main/res/layout/time_table_show_view.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/layout/time_table_taking_view.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/layout/to_do_show_adapter_layout.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/layout/to_do_show_fragment.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/layout/to_do_taking_view.xml" value="0.3229166666666667" />
         <entry key="app/src/main/res/layout/tuesday_layout.xml" value="0.3229166666666667" />
         <entry key="app/src/main/res/layout/wednesday_layout.xml" value="0.3229166666666667" />
         <entry key="app/src/main/res/menu/nav_menu.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.34322916666666664" />
       </map>
     </option>
   </component>

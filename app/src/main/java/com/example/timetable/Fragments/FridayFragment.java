@@ -1,5 +1,6 @@
 package com.example.timetable.Fragments;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,10 +11,18 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.timetable.ForCommunication;
 import com.example.timetable.R;
 
 public class FridayFragment extends Fragment {
     ImageView timerView,todoView;
+    ForCommunication forCommunication ;
+    final  String dayname="Friday";
+    Context context;
+    public FridayFragment(Context context){
+        this.context = context;
+    forCommunication =(ForCommunication) context;
+    }
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,5 +39,11 @@ public class FridayFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         timerView = view.findViewById(R.id.timerButton);
         todoView = view.findViewById(R.id.todoButton);
+        timerView.setOnClickListener(View->{
+            forCommunication.goToTimeTable(dayname);
+        });
+        todoView.setOnClickListener(View->{
+            forCommunication.goToToDoList(dayname);
+        });
     }
 }

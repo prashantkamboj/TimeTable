@@ -1,5 +1,7 @@
 package com.example.timetable.viewPagerAdapter;
 
+import android.content.Context;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
@@ -16,28 +18,30 @@ import com.example.timetable.Fragments.WednesdayFragment;
 
 import java.util.ArrayList;
 
-public class ViewPagerAdapter extends FragmentPagerAdapter {
-    public ViewPagerAdapter(@NonNull FragmentManager fm) {
+public class ViewPagerAdapter extends FragmentPagerAdapter{
+    Context context;
+    public ViewPagerAdapter(@NonNull FragmentManager fm,Context context) {
         super(fm);
+        this.context = context;
     }
     @NonNull
     @Override
     public Fragment getItem(int position) {
         switch(position){
             case 0:
-              return new SundayFragment();
+              return new SundayFragment(context);
             case 1:
-                return new MondayFragment();
+                return new MondayFragment(context);
             case 2:
-               return new TuesdayFragment();
+               return new TuesdayFragment(context);
                 case 3:
-                return new WednesdayFragment();
+                return new WednesdayFragment(context);
                case 4:
-                return new ThursdayFragment();
+                return new ThursdayFragment(context);
                 case 5:
-                 return new FridayFragment();
+                 return new FridayFragment(context);
                 case 6:
-                 return new SaturdayFragment();
+                 return new SaturdayFragment(context);
                 default:
                 return  null;
         }
